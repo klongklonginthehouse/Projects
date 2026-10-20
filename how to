@@ -1,0 +1,18 @@
+1. Clone the repository:
+git clone https://github.com/klongklonginthehouse/Projects.git
+cd Projects
+2. Install PHP dependencies:
+composer install
+3. Install Node dependencies (for frontend/assets):
+npm install
+4. Configure environment:
+cp .env.example .env
+php artisan key:generate
+Then edit .env with your database credentials.
+5. Run database migrations:
+php artisan migrate
+6. Start the development server:
+php artisan serve
+7. Build frontend assets (in another terminal):
+npm run dev
+The API will be available at http://localhost:8000
