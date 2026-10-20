@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "IskolarNotes",
+    "slug": "iskolarnotes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "usesCleartextTraffic": true
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-sharing",
+      "expo-status-bar"
+    ]
+  }
+}
